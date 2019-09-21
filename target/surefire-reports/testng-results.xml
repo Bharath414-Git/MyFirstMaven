@@ -2,15 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-18T17:06:57Z" name="com.testcases.LoginPage_Test" finished-at="2019-09-18T17:07:42Z" duration-ms="44142">
+  <suite started-at="2019-09-21T13:40:30Z" name="com.testcases.LoginPage_Test" finished-at="2019-09-21T13:41:23Z" duration-ms="53193">
     <groups>
     </groups>
-    <test started-at="2019-09-18T17:06:57Z" name="Command line test" finished-at="2019-09-18T17:07:42Z" duration-ms="44142">
+    <test started-at="2019-09-21T13:40:30Z" name="Command line test" finished-at="2019-09-21T13:41:23Z" duration-ms="53193">
       <class name="com.testcases.LoginPage_Test">
-        <test-method signature="Method()[pri:0, instance:com.testcases.LoginPage_Test@711f39f9]" started-at="2019-09-18T22:36:57Z" name="Method" finished-at="2019-09-18T22:37:42Z" duration-ms="44114" status="PASS">
+        <test-method signature="Method()[pri:0, instance:com.testcases.LoginPage_Test@396f6598]" started-at="2019-09-21T19:10:30Z" name="Method" finished-at="2019-09-21T19:11:17Z" duration-ms="47254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Method -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.testcases.LoginPage_Test@396f6598]" started-at="2019-09-21T19:11:17Z" name="cleanup" finished-at="2019-09-21T19:11:23Z" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
       </class> <!-- com.testcases.LoginPage_Test -->
     </test> <!-- Command line test -->
   </suite> <!-- com.testcases.LoginPage_Test -->
