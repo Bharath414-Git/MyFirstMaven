@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -28,6 +29,12 @@ public class BaseClass {
 			System.setProperty("webdriver.gecko.driver",
 					  "F:\\drivers\\geckodriver.exe");
 			 driver = new FirefoxDriver();
+			 driver.manage().window().maximize();
+			 driver.manage().deleteAllCookies();
+			 driver.get(prop.getProperty("URL"));
+			 driver.manage().timeouts().implicitlyWait(5000,TimeUnit.MILLISECONDS);
+			 driver.manage().timeouts().pageLoadTimeout(5000,TimeUnit.MILLISECONDS);
+			 
 		}
 	}
 
